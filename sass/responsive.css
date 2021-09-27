@@ -1,0 +1,55 @@
+/** Responsive design **/
+@media (max-width: 767px) {
+  #header_area {
+    height: 600px;
+  }
+  #header_area h1 {
+    font-size: 50px;
+  }
+  #header_area h2 {
+    font-size: 35px;
+  }
+  #header_area h3 {
+    font-size: 25px !important;
+  }
+  #header_area .header-overlay {
+    height: 600px;
+  }
+  #header_area .header-info {
+    padding-top: 115px;
+  }
+  #header_area .navbar-nav {
+    margin-top: 10px;
+  }
+  #service_section {
+    padding: 50px 0;
+  }
+  #service_section h2 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  #header_area h1 {
+    font-size: 40px;
+  }
+  #header_area h2 {
+    font-size: 35px;
+  }
+  #header_area h3 {
+    font-size: 20px;
+  }
+  #service_section h2 {
+    font-size: 35px;
+  }
+  #service_section h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 454px) {
+  #application_section img {
+    margin-bottom: 15px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
